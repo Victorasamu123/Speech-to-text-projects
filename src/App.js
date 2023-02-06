@@ -13,6 +13,12 @@ function App() {
           <span><img src={next} alt="" /></span>
         </section>
         <section>
+          <main className="options">
+            <p>Language:</p>
+            <select name="language" id="laguage">
+              
+            </select>
+          </main>
           <div></div>
           <div></div>
         </section>

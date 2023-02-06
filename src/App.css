@@ -129,3 +129,9 @@ button:nth-child(2):hover{
     display: none;
   }
 }
+
+.options select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+}
