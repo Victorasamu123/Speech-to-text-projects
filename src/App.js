@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import mic from './Icons/auto_detect_voice_FILL0_wght400_GRAD0_opsz48.svg'
+import before from './Icons/navigate_before_FILL0_wght400_GRAD0_opsz48.svg'
+import next from './Icons/navigate_next_FILL0_wght400_GRAD0_opsz48.svg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="body">
+        <section>
+          <span><img src={before} alt="" /></span>
+          <span className='middle-navigate'></span>
+          <span><img src={next} alt="" /></span>
+        </section>
+        <section>
+          <div></div>
+          <div></div>
+        </section>
+        <section>
+          <div>
+            <button>
+              <img src={mic} alt="Translate" />
+            </button>
+            <button>hindi</button>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }
 
